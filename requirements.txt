@@ -41,3 +41,8 @@ psycopg2-binary==2.9.9
 click==8.1.7
 rich==13.7.0
 tenacity==8.2.3
+
+# Data Pipeline Specific Dependencies
+requests==2.31.0
+schedule==1.2.0
+findspark==2.0.1

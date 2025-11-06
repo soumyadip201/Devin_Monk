@@ -1,0 +1,101 @@
+user_id,username,email,age,city,signup_date
+1,user_1,user_1@example.com,50,New York,2025-04-29 07:32:34.676944
+2,user_2,user_2@example.com,34,Sydney,2025-04-12 07:32:34.676957
+3,user_3,user_3@example.com,66,London,2024-11-16 07:32:34.676962
+4,user_4,user_4@example.com,24,Tokyo,2025-06-21 07:32:34.676966
+5,user_5,user_5@example.com,40,Sydney,2025-07-15 07:32:34.676971
+6,user_6,user_6@example.com,51,New York,2025-02-20 07:32:34.676977
+7,user_7,user_7@example.com,66,New York,2024-12-11 07:32:34.676982
+8,user_8,user_8@example.com,55,London,2025-07-17 07:32:34.676987
+9,user_9,user_9@example.com,75,Sydney,2025-08-05 07:32:34.676992
+10,user_10,user_10@example.com,25,London,2025-06-10 07:32:34.676997
+11,user_11,user_11@example.com,75,London,2025-02-19 07:32:34.677001
+12,user_12,user_12@example.com,52,Sydney,2025-03-03 07:32:34.677006
+13,user_13,user_13@example.com,63,New York,2025-01-08 07:32:34.677011
+14,user_14,user_14@example.com,48,London,2025-10-19 07:32:34.677016
+15,user_15,user_15@example.com,57,Tokyo,2025-03-31 07:32:34.677021
+16,user_16,user_16@example.com,53,Sydney,2025-10-05 07:32:34.677026
+17,user_17,user_17@example.com,34,New York,2025-06-15 07:32:34.677029
+18,user_18,user_18@example.com,48,Sydney,2025-02-28 07:32:34.677032
+19,user_19,user_19@example.com,53,London,2025-10-16 07:32:34.677034
+20,user_20,user_20@example.com,40,London,2025-01-28 07:32:34.677037
+21,user_21,user_21@example.com,23,Sydney,2025-04-04 07:32:34.677039
+22,user_22,user_22@example.com,33,Paris,2025-09-18 07:32:34.677042
+23,user_23,user_23@example.com,45,Paris,2025-08-13 07:32:34.677044
+24,user_24,user_24@example.com,59,Paris,2025-01-11 07:32:34.677047
+25,user_25,user_25@example.com,33,New York,2025-05-23 07:32:34.677049
+26,user_26,user_26@example.com,39,Tokyo,2025-06-10 07:32:34.677052
+27,user_27,user_27@example.com,37,New York,2025-11-01 07:32:34.677054
+28,user_28,user_28@example.com,24,Paris,2024-11-20 07:32:34.677057
+29,user_29,user_29@example.com,61,Sydney,2025-05-09 07:32:34.677060
+30,user_30,user_30@example.com,67,Tokyo,2025-05-31 07:32:34.677066
+31,user_31,user_31@example.com,67,Sydney,2025-08-06 07:32:34.677069
+32,user_32,user_32@example.com,21,Paris,2025-06-28 07:32:34.677071
+33,user_33,user_33@example.com,19,London,2025-08-07 07:32:34.677074
+34,user_34,user_34@example.com,78,Sydney,2024-11-13 07:32:34.677076
+35,user_35,user_35@example.com,54,Tokyo,2025-06-24 07:32:34.677079
+36,user_36,user_36@example.com,75,Paris,2024-11-23 07:32:34.677081
+37,user_37,user_37@example.com,51,Tokyo,2025-09-15 07:32:34.677084
+38,user_38,user_38@example.com,61,Paris,2025-06-11 07:32:34.677086
+39,user_39,user_39@example.com,18,Paris,2025-07-14 07:32:34.677089
+40,user_40,user_40@example.com,50,Paris,2024-12-25 07:32:34.677091
+41,user_41,user_41@example.com,24,London,2025-06-12 07:32:34.677094
+42,user_42,user_42@example.com,46,London,2025-10-03 07:32:34.677096
+43,user_43,user_43@example.com,20,London,2025-09-08 07:32:34.677099
+44,user_44,user_44@example.com,76,Paris,2025-05-04 07:32:34.677101
+45,user_45,user_45@example.com,48,New York,2025-10-13 07:32:34.677104
+46,user_46,user_46@example.com,58,Tokyo,2025-08-24 07:32:34.677106
+47,user_47,user_47@example.com,62,Sydney,2025-06-19 07:32:34.677109
+48,user_48,user_48@example.com,28,Paris,2024-11-27 07:32:34.677111
+49,user_49,user_49@example.com,35,New York,2025-01-23 07:32:34.677114
+50,user_50,user_50@example.com,68,Tokyo,2024-11-07 07:32:34.677116
+51,user_51,user_51@example.com,33,Tokyo,2024-12-08 07:32:34.677119
+52,user_52,user_52@example.com,20,Sydney,2025-03-15 07:32:34.677121
+53,user_53,user_53@example.com,36,London,2025-09-25 07:32:34.677124
+54,user_54,user_54@example.com,31,Sydney,2025-05-27 07:32:34.677127
+55,user_55,user_55@example.com,36,Paris,2025-08-15 07:32:34.677129
+56,user_56,user_56@example.com,79,Sydney,2025-06-01 07:32:34.677131
+57,user_57,user_57@example.com,40,Sydney,2025-03-26 07:32:34.677134
+58,user_58,user_58@example.com,24,New York,2024-12-28 07:32:34.677136
+59,user_59,user_59@example.com,71,Paris,2025-01-01 07:32:34.677139
+60,user_60,user_60@example.com,26,Tokyo,2024-11-09 07:32:34.677141
+61,user_61,user_61@example.com,29,Sydney,2025-04-09 07:32:34.677144
+62,user_62,user_62@example.com,78,Sydney,2025-09-16 07:32:34.677146
+63,user_63,user_63@example.com,26,Sydney,2025-07-25 07:32:34.677149
+64,user_64,user_64@example.com,49,Sydney,2025-04-23 07:32:34.677151
+65,user_65,user_65@example.com,46,Sydney,2025-05-08 07:32:34.677154
+66,user_66,user_66@example.com,28,London,2024-11-25 07:32:34.677156
+67,user_67,user_67@example.com,75,Tokyo,2025-10-17 07:32:34.677159
+68,user_68,user_68@example.com,43,London,2025-09-20 07:32:34.677161
+69,user_69,user_69@example.com,51,Paris,2025-07-26 07:32:34.677164
+70,user_70,user_70@example.com,26,London,2024-12-12 07:32:34.677166
+71,user_71,user_71@example.com,69,New York,2025-10-17 07:32:34.677169
+72,user_72,user_72@example.com,64,Paris,2025-09-02 07:32:34.677171
+73,user_73,user_73@example.com,23,Tokyo,2025-11-01 07:32:34.677173
+74,user_74,user_74@example.com,52,Tokyo,2024-11-15 07:32:34.677176
+75,user_75,user_75@example.com,52,New York,2025-04-08 07:32:34.677178
+76,user_76,user_76@example.com,45,Paris,2025-01-24 07:32:34.677181
+77,user_77,user_77@example.com,34,Sydney,2025-08-25 07:32:34.677183
+78,user_78,user_78@example.com,28,Paris,2024-12-07 07:32:34.677186
+79,user_79,user_79@example.com,46,Paris,2025-10-29 07:32:34.677189
+80,user_80,user_80@example.com,67,London,2025-01-16 07:32:34.677191
+81,user_81,user_81@example.com,72,London,2025-04-02 07:32:34.677194
+82,user_82,user_82@example.com,69,London,2025-01-10 07:32:34.677196
+83,user_83,user_83@example.com,56,New York,2025-06-10 07:32:34.677199
+84,user_84,user_84@example.com,19,Sydney,2025-05-24 07:32:34.677201
+85,user_85,user_85@example.com,67,Tokyo,2025-08-27 07:32:34.677204
+86,user_86,user_86@example.com,25,Paris,2024-12-09 07:32:34.677206
+87,user_87,user_87@example.com,46,New York,2025-01-25 07:32:34.677208
+88,user_88,user_88@example.com,61,New York,2025-04-04 07:32:34.677211
+89,user_89,user_89@example.com,78,Sydney,2025-10-06 07:32:34.677213
+90,user_90,user_90@example.com,20,Tokyo,2025-01-17 07:32:34.677216
+91,user_91,user_91@example.com,46,Tokyo,2025-05-16 07:32:34.677218
+92,user_92,user_92@example.com,47,London,2025-01-29 07:32:34.677221
+93,user_93,user_93@example.com,40,Sydney,2025-02-07 07:32:34.677224
+94,user_94,user_94@example.com,22,Sydney,2025-08-23 07:32:34.677229
+95,user_95,user_95@example.com,33,Tokyo,2024-11-21 07:32:34.677234
+96,user_96,user_96@example.com,59,New York,2025-05-09 07:32:34.677238
+97,user_97,user_97@example.com,70,Sydney,2025-08-11 07:32:34.677243
+98,user_98,user_98@example.com,37,Tokyo,2025-03-02 07:32:34.677247
+99,user_99,user_99@example.com,31,London,2025-09-14 07:32:34.677266
+100,user_100,user_100@example.com,57,Tokyo,2025-08-17 07:32:34.677271

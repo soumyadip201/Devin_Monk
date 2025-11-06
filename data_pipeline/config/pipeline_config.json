@@ -1,0 +1,86 @@
+{
+  "mongodb": {
+    "connection_string": "mongodb://localhost:27017/",
+    "database_name": "data_pipeline",
+    "connection_timeout": 5000,
+    "server_selection_timeout": 5000
+  },
+  "spark": {
+    "app_name": "DataIngestionPipeline",
+    "master": "local[*]",
+    "config": {
+      "spark.sql.adaptive.enabled": "true",
+      "spark.sql.adaptive.coalescePartitions.enabled": "true",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
+      "spark.sql.streaming.checkpointLocation": "/tmp/spark-checkpoints",
+      "spark.jars.packages": "org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0"
+    }
+  },
+  "kafka": {
+    "bootstrap_servers": "localhost:9092",
+    "topics": ["user_events", "transaction_events"],
+    "checkpoint_base_dir": "/tmp/kafka-checkpoints",
+    "consumer_config": {
+      "auto.offset.reset": "latest",
+      "enable.auto.commit": "false",
+      "group.id": "data-pipeline-consumer"
+    }
+  },
+  "api": {
+    "weather": {
+      "api_key": null,
+      "base_url": "https://api.openweathermap.org/data/2.5",
+      "cities": ["New York", "London", "Tokyo", "Paris", "Sydney"],
+      "collection": "weather_data"
+    },
+    "stock": {
+      "api_key": null,
+      "base_url": "https://api.twelvedata.com/v1",
+      "symbols": ["AAPL", "GOOGL", "MSFT", "AMZN", "TSLA"],
+      "collection": "stock_data"
+    },
+    "fetch_interval_hours": 1,
+    "request_timeout": 30,
+    "max_workers": 4
+  },
+  "csv": {
+    "data_directory": "data",
+    "batch_processing": true,
+    "auto_discover": true,
+    "file_patterns": ["*.csv"],
+    "transformations": {
+      "users": {
+        "rename_columns": {
+          "user_id": "id",
+          "signup_date": "created_at"
+        },
+        "cast_columns": {
+          "age": "int",
+          "created_at": "timestamp"
+        }
+      },
+      "transactions": {
+        "rename_columns": {
+          "transaction_id": "id",
+          "transaction_date": "created_at"
+        },
+        "cast_columns": {
+          "amount": "double",
+          "created_at": "timestamp"
+        }
+      }
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "directory": "data_pipeline/logs",
+    "max_file_size_mb": 10,
+    "backup_count": 5,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(funcName)s:%(lineno)d - %(message)s"
+  },
+  "monitoring": {
+    "enable_metrics": true,
+    "metrics_port": 8080,
+    "health_check_interval": 60
+  }
+}
