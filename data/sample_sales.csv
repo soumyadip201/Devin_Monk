@@ -1,0 +1,11 @@
+id,product_name,category,price,quantity,sale_date,customer_id,region
+1,Laptop Pro,Electronics,1299.99,2,2024-01-15,C001,North America
+2,Wireless Mouse,Electronics,29.99,5,2024-01-15,C002,Europe
+3,Office Chair,Furniture,199.99,1,2024-01-16,C003,Asia
+4,Smartphone X,Electronics,899.99,3,2024-01-16,C001,North America
+5,Desk Lamp,Furniture,49.99,2,2024-01-17,C004,Europe
+6,Tablet Mini,Electronics,399.99,1,2024-01-17,C005,Asia
+7,Ergonomic Keyboard,Electronics,79.99,4,2024-01-18,C002,Europe
+8,Standing Desk,Furniture,299.99,1,2024-01-18,C006,North America
+9,Webcam HD,Electronics,89.99,2,2024-01-19,C003,Asia
+10,Monitor 27inch,Electronics,249.99,1,2024-01-19,C007,Europe

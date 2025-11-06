@@ -1,0 +1,97 @@
+# Data Ingestion Pipeline Configuration
+
+# Data Sources
+csv_data_directory: "./data"
+weather_api_key: "${WEATHER_API_KEY}"
+stock_api_key: "${STOCK_API_KEY}"
+
+# MongoDB Configuration
+mongodb_host: "${MONKDB_HOST:-localhost}"
+mongodb_port: 27017
+mongodb_database: "${MONKDB_DATABASE:-monkdb}"
+mongodb_username: "${MONKDB_USERNAME}"
+mongodb_password: "${MONKDB_PASSWORD}"
+
+# Kafka Configuration
+kafka_bootstrap_servers: "${KAFKA_BOOTSTRAP_SERVERS:-localhost:9092}"
+kafka_topics:
+  - "weather-data"
+  - "stock-data"
+  - "csv-data"
+
+# Scheduling Configuration
+api_fetch_interval_minutes: 60  # Fetch API data every hour
+csv_processing_interval_minutes: 30  # Process CSV files every 30 minutes
+
+# Feature Toggles
+enable_kafka_streaming: true
+enable_api_fetching: true
+enable_csv_processing: true
+
+# Stock Symbols to Track
+stock_symbols:
+  - "AAPL"   # Apple
+  - "GOOGL"  # Google
+  - "MSFT"   # Microsoft
+  - "AMZN"   # Amazon
+  - "TSLA"   # Tesla
+  - "NVDA"   # NVIDIA
+  - "META"   # Meta (Facebook)
+  - "NFLX"   # Netflix
+
+# Weather Locations to Track
+weather_locations:
+  - name: "New York"
+    lat: 40.7128
+    lon: -74.0060
+  - name: "London"
+    lat: 51.5074
+    lon: -0.1278
+  - name: "Tokyo"
+    lat: 35.6762
+    lon: 139.6503
+  - name: "Sydney"
+    lat: -33.8688
+    lon: 151.2093
+  - name: "Mumbai"
+    lat: 19.0760
+    lon: 72.8777
+
+# Processing Configuration
+spark_config:
+  app_name: "MonkDB_Data_Ingestion"
+  master: "local[*]"
+  executor_memory: "2g"
+  driver_memory: "1g"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  enable_json_logs: false
+  log_file: "./logs/data_ingestion.log"
+
+# MongoDB Collections
+collections:
+  csv_data: "csv_data"
+  weather_data: "weather_data"
+  stock_data: "stock_data"
+  weather_stream_data: "weather_stream_data"
+  stock_stream_data: "stock_stream_data"
+  csv_stream_data: "csv_stream_data"
+
+# API Rate Limiting
+rate_limits:
+  weather_api_delay_seconds: 1
+  stock_api_delay_seconds: 12  # Alpha Vantage free tier: 5 requests per minute
+
+# Error Handling
+error_handling:
+  max_retries: 3
+  retry_delay_seconds: 5
+  continue_on_error: true
+
+# Monitoring
+monitoring:
+  enable_metrics: true
+  metrics_port: 8080
+  health_check_interval_seconds: 30

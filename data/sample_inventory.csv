@@ -1,0 +1,11 @@
+product_id,product_name,category,stock_quantity,reorder_level,supplier,last_updated
+P001,Laptop Pro,Electronics,45,10,TechSupplier Inc,2024-01-20
+P002,Wireless Mouse,Electronics,120,25,TechSupplier Inc,2024-01-20
+P003,Office Chair,Furniture,30,5,FurnitureCorp,2024-01-20
+P004,Smartphone X,Electronics,75,15,MobileWorld,2024-01-20
+P005,Desk Lamp,Furniture,60,10,FurnitureCorp,2024-01-20
+P006,Tablet Mini,Electronics,40,8,TechSupplier Inc,2024-01-20
+P007,Ergonomic Keyboard,Electronics,85,20,TechSupplier Inc,2024-01-20
+P008,Standing Desk,Furniture,15,3,FurnitureCorp,2024-01-20
+P009,Webcam HD,Electronics,55,12,TechSupplier Inc,2024-01-20
+P010,Monitor 27inch,Electronics,35,7,DisplayTech,2024-01-20
